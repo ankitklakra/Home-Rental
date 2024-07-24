@@ -21,7 +21,7 @@ app.use("/users",userRoutes)
 
 
 /* MONGOOSE SETUP */
-const PORT = 3001;
+const PORT = "https://home-rental-sooty.vercel.app/";
 mongoose
   .connect(process.env.MONGO_URL, {
   //  dbName:"Home",
